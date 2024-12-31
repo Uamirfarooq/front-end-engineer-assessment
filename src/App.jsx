@@ -5,6 +5,7 @@ import './App.css'
 import Section1 from './components/Section1'
 import Section2 from './components/Section2'
 import Section3 from './components/Section3'
+import Section4 from './components/Section4'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,8 @@ function App() {
         <Section2 />
         {/* Section no 3 */}
         <Section3 />
+        {/* Section no 4 */}
+        <Section4 />
       </div>
     </>
   )

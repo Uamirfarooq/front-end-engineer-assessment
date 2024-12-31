@@ -10,8 +10,8 @@ const Section3 = () => {
                         Trusted By The World Leading Organisations
                     </h2>
                     <div className="flex justify-center items-center flex-wrap gap-28   ">
-                        <img src="../../public/Rectangle 56.png" alt="" className='absolute left-20 z-20'/>
-                        <img src="../../public/Rectangle 57.png" alt="" className='absolute right-20 z-20'/>
+                        <img src="../../public/Rectangle 56.png" alt="" className='absolute left-20 z-20' />
+                        <img src="../../public/Rectangle 57.png" alt="" className='absolute right-20 z-20' />
                         <img
                             src="../../public/7 2.png"
                             alt="GSK"
@@ -47,6 +47,17 @@ const Section3 = () => {
 
                 {/* Features Section */}
                 <div className="text-center">
+                    <img
+                        src="../../public/Group 23.png"
+                        alt="Logo"
+                        className="w-[43px] h-[42.37px] absolute top-[1575px] left-[186px] gap-0 border-t border-opacity-30 "
+                    />
+                    <img
+                        src="../../public/Group 5.png"
+                        alt="Logo"
+                        className="w-[43px] h-[42.37px] absolute top-[1450px] right-20 gap-0 border-t border-opacity-30 "
+                    />
+
                     <button className="px-6 py-4 mb-14 text-blue-600 border border-blue-600 rounded-full hover:bg-blue-600 hover:text-white transition-all">
                         Features
                     </button>
