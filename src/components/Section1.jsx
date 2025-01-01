@@ -2,16 +2,17 @@ import React from 'react'
 
 const Section1 = () => {
   return (
-    <section className='bg-gradient-to-r from-violet-100 to-orange-50 w-[100vw] h-[100vh] via-transparent '>
+    <section className='bg-gradient-to-r pb-40 from-violet-100 to-orange-50  via-transparent flex  justify-center'>
+      <div className='w-[1000px] relative'>
         <img
           src="../../public/docker-pattern-right 3.png"
           alt="Logo"
-          className="w-[537px] h-[502px] absolute right-0 opacity-80"
+          className="w-[537px] h-[502px] absolute right-[-200px] opacity-80"
         />
         <img
           src="../public/docker-pattern-right 4.png"
           alt="Logo"
-          className="w-[537px] h-[502px] absolute top-[319px] left-0 opacity-90 "
+          className="w-[537px] h-[502px] absolute top-[319px] left-[-200px] opacity-90 "
         />
 
         <div className='py-8 flex justify-center'>
@@ -48,7 +49,8 @@ const Section1 = () => {
             </button>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
   )
 }
 

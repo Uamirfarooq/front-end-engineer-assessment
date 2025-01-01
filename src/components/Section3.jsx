@@ -46,16 +46,16 @@ const Section3 = () => {
                 </div>
 
                 {/* Features Section */}
-                <div className="text-center">
+                <div className="text-center relative">
                     <img
                         src="../../public/Group 23.png"
                         alt="Logo"
-                        className="w-[43px] h-[42.37px] absolute top-[1575px] left-[186px] gap-0 border-t border-opacity-30 "
+                        className="w-[43px] h-[42.37px] absolute  gap-0 border-t border-opacity-30 "
                     />
                     <img
                         src="../../public/Group 5.png"
                         alt="Logo"
-                        className="w-[43px] h-[42.37px] absolute top-[1450px] right-20 gap-0 border-t border-opacity-30 "
+                        className="w-[43px] h-[42.37px] absolute right-0 gap-0 border-t border-opacity-30 "
                     />
 
                     <button className="px-6 py-4 mb-14 text-blue-600 border border-blue-600 rounded-full hover:bg-blue-600 hover:text-white transition-all">
