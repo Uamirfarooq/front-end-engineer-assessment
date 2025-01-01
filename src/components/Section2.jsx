@@ -2,7 +2,7 @@ import React from 'react'
 
 const Section2 = () => {
     return (
-        <div className=' flex items-center flex-col justify-center  bg-gradient-to-b from-violet-50 via-transparent '>
+        <div className=' flex items-center flex-col justify-center  bg-gradient-to-bl from-stone-300 via-slate-100 to-white'>
             <div className='w-[1080px] h-full relative bottom-20 bg-gray-200 p-3 rounded-3xl
                 flex flex-col items-center '>
                 <img

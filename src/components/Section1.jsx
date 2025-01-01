@@ -2,8 +2,8 @@ import React from 'react'
 
 const Section1 = () => {
   return (
-    <section className='bg-gradient-to-r pb-40 from-violet-100 to-orange-50  via-transparent flex  justify-center'>
-      <div className='w-[1000px] relative'>
+    <section className='bg-gradient-to-bl from-red-100 via-stone-300 to-slate-100 flex  justify-center'>
+      <div className='w-[1000px] relative mb-36'>
         <img
           src="../../public/docker-pattern-right 3.png"
           alt="Logo"
