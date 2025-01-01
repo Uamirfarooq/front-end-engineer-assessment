@@ -24,7 +24,8 @@ const Section6 = () => {
                 sx={{
                     borderRadius: "60px", // Equivalent to rounded-full
                     paddingX: 6,           // px-6 translates to paddingX: 6
-                    marginY: 10
+                    marginY: 20,
+                    position: 'relative'
                 }}
             >
                 Testimonials
