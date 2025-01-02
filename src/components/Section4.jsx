@@ -39,7 +39,7 @@ const Section4 = () => {
 
                 </div>
                 {/* Box 3 */}
-                <div className="w-[480px] h-[380px] border-t-[1px] border-gray-300  flex flex-col items-center justify-center bg-white shadow-md rounded-lg relative">
+                <div className="w-[480px]  h-[380px] border-t-[1px] border-gray-300  flex flex-col items-center justify-center bg-white shadow-md rounded-lg relative">
                     <img
                         src="../../public/Gabrun-Minutes-BG 1.png"
                         alt="Logo"

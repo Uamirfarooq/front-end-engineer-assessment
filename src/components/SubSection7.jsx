@@ -32,7 +32,7 @@ const Carousel = () => {
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: true, // Enable autoplay
+        autoplay: true,
         autoplaySpeed: 3000,
         responsive: [
             {
@@ -53,17 +53,18 @@ const Carousel = () => {
     };
 
     return (
-        <Box sx={{ padding: "20px",width: "1300px", margin: "auto"}}>
+        <Box sx={{ padding: "20px", maxWidth: "100%", margin: "auto" }}> {/* Adjusted for responsiveness */}
             <Slider {...settings}>
                 {testimonials.map((testimonial, index) => (
-                    <Box key={index} sx={{ padding: "10px 10px" }}> {/* Add horizontal padding here */}
+                    <Box key={index} sx={{ padding: "10px" }}> {/* Simplified padding for responsiveness */}
                         <Card
                             sx={{
                                 borderRadius: "8px",
                                 display: "flex",
                                 flexDirection: "column",
-                                padding: "16px", // Optional for internal card spacing
-                                boxShadow: 3, // Optional for better card appearance
+                                padding: "16px",
+                                boxShadow: 3,
+                                height: "100%", // Ensure consistent height for cards
                             }}
                         >
                             <CardContent>

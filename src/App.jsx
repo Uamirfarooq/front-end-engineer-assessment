@@ -20,20 +20,15 @@ function App() {
       <div className=''>
         {/* Section no 1 */}
         <Section1 />
-        {/* Section no 2 */}
         <Section2 />
-        {/* Section no 3 */}
         <Section3 />
-        {/* Section no 4 */}
         <Section4 />
-        {/* Section no 5 */}
         <Section5 />
 
-        {/* Section no 6 */}
         <Section6 />
-        {/* Section no 7*/}
+
         <Section7 />
-        {/* Section no 8 */}
+
         <Section8 />
         <Footer />
       </div>
