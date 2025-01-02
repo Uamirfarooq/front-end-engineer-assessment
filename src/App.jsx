@@ -10,6 +10,7 @@ import Section6 from './components/Section6'
 import Section7 from './components/Section7'
 import Section8 from './components/Section8'
 import Footer from './components/Footer'
+import Section5 from './components/Section5'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,6 +27,7 @@ function App() {
         {/* Section no 4 */}
         <Section4 />
         {/* Section no 5 */}
+        <Section5 />
 
         {/* Section no 6 */}
         <Section6 />
